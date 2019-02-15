@@ -1,5 +1,3 @@
-require 'pry'
-
 def game_hash
   {
     home: {
@@ -164,5 +162,3 @@ def player_numbers(team_name)
   end
   num_array.sort
 end
-
-puts player_numbers("Charlotte Hornets")
